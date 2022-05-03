@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+        background-image: linear-gradient(to right top, #5bc7db, #35bce3, #08b0eb, #16a2ef, #4292ef, #5587ef, #6b7bec, #816de5, #8c63e4, #9857e2, #a449de, #b136d8);
+         background-attachment: fixed;
+      }
+      
+      a{
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+   
+  <div class="container my-5" >
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <form id="form-submit">
+
+                <div class="">
+                  <label for="name">Name</label>
+
+                  <div class="input-group mb-3">
+                    
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-user"></i>
+                      </span>
+                   
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      placeholder="Enter your name"
+                      aria-describedby="name"
+                      
+                    />
+                   </div>
+                </div>
+
+                <div class="">
+                  <label for="email">Email</label>
+
+                  <div class="input-group mb-3">
+                 
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                  
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="you@awesome.com"
+                      aria-describedby="email"
+                      
+                    />
+                   </div>
+                </div>
+
+              
+                  <label for="pass">Password</label>
+
+                  <div class="input-group">
+                    
+                      <span class="input-group-text">
+                        <i class="fa fa-key"></i>
+                      </span>
+                    
+                    <input
+                      type="password"
+                      name="password"
+                      class="form-control"
+                      id="pass"
+                      placeholder="Password"
+                     
+                    />
+                   
+                  </div>
+                 <div class="pb-3">
+                  <small>
+                    <a href="">
+                      Forgot Password?</a>
+                      </small>
+                 </div>
+                
+               
+
+                <div class="">
+                  <div class="d-grid">
+                   <button class="btn btn-info" id="btnclick">
+                      <i class="fa fa-unlock-alt mr-1"></i>
+                      Login
+                    </button>
+                  </div>
+                </div>
+
+                <div class="pt-3 text-center">
+                  <small>
+                     Don't have an account?
+                     <a href="">Register now</a>
+                   </small>
+                 </div>
+              </form>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+   
+    <script src="./index.js"></script>
+</body>
+</html>
